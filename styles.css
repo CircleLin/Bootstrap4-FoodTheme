@@ -1,3 +1,9 @@
+:root{
+    --main-color:#D6B227;
+    --second-color:#8C7322;
+}
+
+
 .navbar .nav-link{
     font-size: 14px;
     text-transform:uppercase;
@@ -5,7 +11,9 @@
     padding-right:1rem !important;
 }
 
-
+.nav-item:hover{
+    border-bottom:1px solid var(--main-color);   
+}
 
 .carousel-item{
     height:450px;
