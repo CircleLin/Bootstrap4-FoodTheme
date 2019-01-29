@@ -1,8 +1,15 @@
 :root{
-    --main-color:#D6B227;
-    --second-color:#8C7322;
+    --main-color:#8C7322;
+    --second-color:#D6B227 ;
 }
 
+.main-color-font{
+    color:var(--main-color);
+}
+
+.second-color-font{
+    color:var(--second-color);
+}
 
 .navbar .nav-link{
     font-size: 14px;
@@ -30,4 +37,12 @@
     background-size: cover;
     background-attachment: fixed;    
     height:200px;
+}
+
+#section-contact{
+    background: var(--main-color);
+}
+
+footer{
+    background: #FFFFCC;
 }
