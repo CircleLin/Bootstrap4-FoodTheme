@@ -36,7 +36,7 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;    
-    height:200px;
+    min-height:200px;
 }
 
 #section-contact{
@@ -46,3 +46,27 @@
 footer{
     background: #FFFFCC;
 }
+
+#section-heading{
+    position: relative;
+    min-height:300px;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    background-image: url(images/chef.jpg);
+}
+
+.dark-overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+}
+
+#section-staff img{
+    margin-top:-40px;
+    box-shadow: -1px 1px 20px 3px rgba(0,0,0,0.5);
+}
+
