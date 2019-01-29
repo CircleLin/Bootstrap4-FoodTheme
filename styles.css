@@ -1,0 +1,25 @@
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform:uppercase;
+    padding-left:1rem !important;
+    padding-right:1rem !important;
+}
+
+
+
+.carousel-item{
+    height:450px;
+}
+
+.carousel-item > img{
+    background-size: cover;
+    background-position: center center;
+}
+
+#section-home-heading{
+    background-image: url(images/bg_1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;    
+    height:200px;
+}
