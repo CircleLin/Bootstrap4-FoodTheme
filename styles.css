@@ -70,3 +70,7 @@ footer{
     box-shadow: -1px 1px 20px 3px rgba(0,0,0,0.5);
 }
 
+.small-hr{
+    border-bottom: 1px solid var(--second-color);
+    width: 10%;
+}
