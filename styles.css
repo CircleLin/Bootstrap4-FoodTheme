@@ -27,12 +27,20 @@ body{
 }
 
 .carousel-item{
-    height:450px;
+    min-height:450px;
 }
 
-.carousel-item > img{
+.carousel-image-1{
+    background:url(images/Carousel_1.jpg);
     background-size: cover;
-    background-position: center center;
+}
+.carousel-image-2{
+    background:url(images/Carousel_2.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background:url(images/Carousel_3.jpg);
+    background-size: cover;
 }
 
 #section-home-heading{
