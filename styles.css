@@ -3,6 +3,10 @@
     --second-color:#D6B227 ;
 }
 
+body{
+    font-family: "Microsoft JhengHei";
+}
+
 .main-color-font{
     color:var(--main-color);
 }
@@ -100,4 +104,41 @@ footer{
 
 #section-staff .thumb:hover .middle{
     opacity: 1;
+}
+
+.pizza-media{
+    border:1px solid var(--second-color);
+    border-radius: 5px;
+    padding:10px;   
+}
+
+.pizza-media img{
+    width: auto;
+    height: 130px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#section-menu .nav-item{
+    margin:10px;
+    border:1px solid var(--main-color);
+    transition: 0.2s;
+}
+
+#section-menu .nav-item:hover{
+    background-color: var(--main-color);   
+}
+
+#section-menu .nav-item a:hover{
+    color:white;
+}
+
+#section-menu .nav-link{
+    color:var(--main-color);    
+}
+
+#section-menu .nav-link.active{
+    background-color: var(--main-color);
+    color:white;   
+    border-radius: 0rem;
 }
