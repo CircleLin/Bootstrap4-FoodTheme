@@ -75,3 +75,29 @@ footer{
     width: 10%;
 }
 
+#section-staff .thumb {
+    position: relative;
+}
+
+#section-staff .thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#section-staff .thumb .middle{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(214,178,39,0.7);
+}
+
+#section-staff .thumb:hover .middle{
+    opacity: 1;
+}
