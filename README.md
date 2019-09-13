@@ -2,6 +2,6 @@
 >  練習使用Bootstrap 4、CSS 3 製作早午餐店的Landing page
 
 #### 實作畫面
-![image](https://github.com/CircleLin/Course_GraphQL/blob/master/demo.PNG)
+![image](https://github.com/CircleLin/Bootstrap4-FoodTheme/blob/master/fooddemo.PNG)
 
 Please visit here : https://circlelin.github.io/Bootstrap4-FoodTheme/
