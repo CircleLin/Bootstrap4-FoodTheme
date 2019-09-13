@@ -4,4 +4,5 @@
 #### 實作畫面
 ![image](https://github.com/CircleLin/Bootstrap4-FoodTheme/blob/master/fooddemo.PNG)
 
-Please visit here : https://circlelin.github.io/Bootstrap4-FoodTheme/
+* * *
+Github.IO : https://circlelin.github.io/Bootstrap4-FoodTheme/
